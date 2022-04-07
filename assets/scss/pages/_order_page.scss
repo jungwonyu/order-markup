@@ -1,8 +1,20 @@
 .container {
     padding-top: $place-header-height + $place-tab-height; // 100px 이런 식으로 적어주려면 계산해야하기 때문에 미리 정해둔 변수를 적어주면 알아서 잘 계산됨
+    background-color: $booking-color-border151;
 }
 
 .common-inner {
     margin: 0 auto;
     max-width: 720px;
+}
+
+.badge-popular {
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 10px;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 700;
+    background-color: #ff61a7;
+    color: #fff;
 }

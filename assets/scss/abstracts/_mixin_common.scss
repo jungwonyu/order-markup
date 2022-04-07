@@ -1,0 +1,5 @@
+@mixin ellipse {
+    text-overflow: ellipsis; // 넘는 부분은 말줄임표
+    white-space: nowrap;
+    overflow: hidden;    // 영역이 넘으면 감추고
+}
