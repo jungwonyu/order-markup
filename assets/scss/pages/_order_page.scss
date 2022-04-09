@@ -1,5 +1,6 @@
 .container {
     padding-top: $place-header-height + $place-tab-height; // 100px 이런 식으로 적어주려면 계산해야하기 때문에 미리 정해둔 변수를 적어주면 알아서 잘 계산됨
+    padding-bottom: $order-box-area-height;
     background-color: $booking-color-border151;
 }
 

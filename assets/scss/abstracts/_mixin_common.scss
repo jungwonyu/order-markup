@@ -1,5 +1,16 @@
 @mixin ellipse {
     text-overflow: ellipsis; // 넘는 부분은 말줄임표
     white-space: nowrap;
-    overflow: hidden;    // 영역이 넘으면 감추고
+    overflow: hidden; // 영역이 넘으면 감추기
+}
+
+// 다중행 .. 처리하기
+@mixin multi-ellipse($font-size, $line-height, $lines) {
+    font-size: $font-size;
+    line-height: $line-height;
+    max-height: $line-height * $lines;
+    overflow: hidden; // 영역 넘으면 감추기
+    display: -webkit-box;
+    -webkit-line-clamp: $lines;
+    -webkit-box-orient: vertical;  /* autoprefixer: off */
 }
