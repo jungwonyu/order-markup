@@ -16,19 +16,18 @@
             width: $m-padding;
             height: 100%;
             background-image: linear-gradient(to right, #fff 35%, rgba(255,255,255,0));
-            pointer-events: none; // 마우스로 클릭되지 않는 요소
+            pointer-events: none;
             z-index: 1;
         }
         &::after {
             content: '';
             position: absolute;
             top: 0;
-            left: 0;
+            right: 0;
             width: $m-padding;
             height: 100%;
             background-image: linear-gradient(to right, rgba(255,255,255,0), #fff 65%);
-            pointer-events: none; // 마우스로 클릭되지 않는 요소
-            z-index: 1;
+            pointer-events: none;
         }
     }
 
@@ -45,7 +44,6 @@
         &:last-child {
             padding-right: $m-padding;
         }
-
     }
 
     .category-tab {
@@ -54,7 +52,7 @@
         padding: 0 12px;
         font-size: 16px;
         height: 30px;
-        border-radius: 15px;;
+        border-radius: 15px;
         color: $booking-color-text6;
         &.is-active {
             background-color: $booking-color-bg165;

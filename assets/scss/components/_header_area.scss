@@ -1,6 +1,6 @@
 .header-area {
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     background-color: #03c75a;
@@ -9,7 +9,7 @@
 
     .place-header {
         display: flex;
-        justify-content: space-between; // 요소를 양쪽으로 정렬
+        justify-content: space-between;
         align-items: center;
         height: $place-header-height;
 

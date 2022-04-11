@@ -35,19 +35,20 @@
             display: block;
         }
     }
+
     .menu-desc {
         margin-top: 4px;
         letter-spacing: -0.4px;
         color: $booking-color-text5;
-        @include multi-ellipse(14px, 19px, 2);
+        @include multi-ellipsis(14px, 19px, 2);
     }
 
     .menu-price {
-        margin-top: 4px;
-        line-height: 1.4;
-        font-size: 15px;
-        font-weight: 700;
-        color: $point-color;
+       margin-top: 4px;
+       line-height: 1.4; 
+       font-size: 15px;
+       font-weight: 700;
+       color: $point-color;
     }
 
     .btn-cart {
@@ -59,7 +60,7 @@
         width: 40px;
         height: 40px;
         border-radius: 5px;
-        border: 1px solid $booking-color-border158;
+        border: 1px solid $booking-color-border150;
         .ico-cart {
             width: 20px;
             height: 20px;
@@ -92,7 +93,7 @@
 .menu-name-group {
     display: flex;
     align-items: center;
-    
+
     .menu-name {
         font-size: 17px;
         line-height: 22px;
@@ -111,7 +112,7 @@
 
 .menu-info-group {
     display: flex;
-    flex-grow: 0;
+    flex-shrink: 0;
     margin-top: 4px;
     font-size: 14px;
 
@@ -136,13 +137,14 @@
             }
         }
     }
+
     .menu-number-of-order {
         flex-shrink: 0;
         color: $booking-color-text5;
 
         em {
             margin-left: 4px;
-            font-size: normal;
+            font-style: normal;
             font-weight: 700;
             color: $booking-color-text6;
         }

@@ -12,7 +12,7 @@
 
     &.is-closed {
         padding: 24px $m-padding;
-    
+
         & + .is-closed {
             margin-top: 0;
             border-top: 1px solid $booking-color-border144;

@@ -8,7 +8,7 @@
     box-shadow: 0 0 6px 4px rgba(0,0,0,0.03);
     background-color: #fff;
     z-index: 9100;
-    
+
     .common-inner {
         display: flex;
         justify-content: space-between;
@@ -18,14 +18,14 @@
     .menu-name {
         font-size: 15px;
         color: $booking-color-text6;
-        @include ellipse;
+        @include ellipsis;
     }
 
     .menu-price {
         font-size: 18px;
         font-weight: 700;
         color: $point-color;
-        @include ellipse;
+        @include ellipsis;
     }
 
     .btn-order {
